@@ -1,0 +1,4 @@
+F:/vscode/c++/tests/build/CMakeFiles/system.dir
+F:/vscode/c++/tests/build/CMakeFiles/clean_output.dir
+F:/vscode/c++/tests/build/CMakeFiles/edit_cache.dir
+F:/vscode/c++/tests/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 17)
+project(system)
+#1. 生成 app.o
+add_custom_command(
+    OUTPUT ${CMAKE_BINARY_DIR}/uac.o
+    COMMAND windres -i ${CMAKE_SOURCE_DIR}/src/uac.rc -o ${CMAKE_BINARY_DIR}/uac.o --use-temp-file
+    DEPENDS ${CMAKE_SOURCE_DIR}/src/uac.rc ${CMAKE_SOURCE_DIR}/src/uac.manifest
+    COMMENT "Compiling resources"
+)
+
+# 2. 把 app.o 加入可执行文件
+add_executable(${PROJECT_NAME}
+    src/cppOut.cpp
+    src/cppIn.cpp
+    src/select.cpp
+    src/students.cpp
+    src/list.cpp
+    src/login.cpp
+    src/title.cpp
+    src/menu.cpp
+    src/main.cpp
+    ${CMAKE_BINARY_DIR}/uac.o
+    # src/uac.o
+)
+# set(APP_MANIFEST "${CMAKE_SOURCE_DIR}/src/app.manifest")
+# set_target_properties(system PROPERTIES
+#     LINK_FLAGS "/MANIFESTUAC:NO /MANIFEST:EMBED /MANIFESTINPUT:${APP_MANIFEST}"
+# )
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+add_custom_target(clean_output
+)

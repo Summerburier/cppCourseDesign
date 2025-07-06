@@ -41,7 +41,7 @@ class list {
         standard = new node(student());
     }
     void insert(const student& s);
-    void Search(searchType type, const std::string& value,level le, const std::string& userName) const ;
+    list Search(searchType type, const std::string& value,level le, const std::string& userName) const ;
     void setStandard(const std::string& userName) ;
     void changeInfo(const std::string& regristrationNumber, searchType type, const std::string& value, const std::string& userName) ;
     void displayAll(const std::string& userName) const ;

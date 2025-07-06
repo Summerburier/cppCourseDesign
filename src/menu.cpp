@@ -64,27 +64,32 @@ int maintask(list& studentList, const std::string& userName) {
         case 1: {
             const std::string queryModes[2] = {"按姓名查询", "按准考证查询"};
             int mode = selectquiz("请选择查询方式", 2, queryModes, currentUser);
-
+            std::string name;
+            std::string regNum;
+            int level;
             list resultList;
             if (mode == 0) {
                 const std::string queryLevels[2] = {"精确查询", "模糊查询"};
-                int level = selectquiz("请选择查询级别", 2, queryLevels, currentUser);
+                level = selectquiz("请选择查询级别", 2, queryLevels, currentUser);
 
                 if (level == 0) {
-                    std::string name = cppIn("请输入学生姓名");
-                    studentList.Search(searchType::name, name, level::accurate, currentUser);
+                    name = cppIn("请输入学生姓名");
+                    resultList=studentList.Search(searchType::name, name, level::accurate, currentUser);
                 } else {
-                    std::string name = cppIn("请输入学生姓氏");
-                    studentList.Search(searchType::name, name, level::fuzzy, currentUser);
+                    name = cppIn("请输入学生姓氏");
+                    resultList=studentList.Search(searchType::name, name, level::fuzzy, currentUser);
                 }
 
             } else {
-                std::string regNum = cppIn("请输入学生注册号");
-                studentList.Search(searchType::regristrationNumber, regNum, level::accurate, currentUser);
+                regNum = cppIn("请输入学生注册号");
+                resultList=studentList.Search(searchType::regristrationNumber, regNum, level::accurate, currentUser);
             }
             std::string out = cppIn("是否导出查询结果（是/否）");
             if (out == "是" || out == "1" || out == "true") {
-                resultList.Fout("query_result.txt", currentUser);
+                std::string fileName = std::string("searchby") +
+    (mode == 0 ? (level == 0 ? "Name" : "FirstName") : "Regnum") +
+    ".txt";
+                resultList.Fout(fileName, currentUser);
             }
             break;
         }

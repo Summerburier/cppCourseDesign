@@ -26,7 +26,7 @@ void list::displayAll(const std::string& userName) const {
     formOut(*this);
     cppOut("学生列表显示完毕", outputType::success, userName);
 }
-void list::Search(searchType type, const string& value, level le, const string& userName) const {
+list list::Search(searchType type, const string& value, level le, const string& userName) const {
     node* current = head;
     list resultList;
     while (current != NULL) {
@@ -55,7 +55,9 @@ void list::Search(searchType type, const string& value, level le, const string& 
         cppOut("没有找到符合条件的学生", outputType::error, userName);
     } else {
         formOut(resultList);
+        return resultList;
     }
+    return list(); // 返回空列表
 }
 void list::changeInfo(const std::string& regristrationNumber, searchType type, const std::string& value, const std::string& userName) {
     node* current = head;
@@ -309,7 +311,7 @@ void list::Fout(const std::string& fileName, const std::string& userName) const 
     std::ofstream fout(fileName);
     if (!fout) {
         cppOut("无法打开文件进行写入", outputType::error, userName);
-
+        return;
     }
     node* current = head;
     while (current != nullptr) {

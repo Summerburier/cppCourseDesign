@@ -1,15 +1,13 @@
-# ninja log v6
-13	351	7729153980998767	uac.res	a39a9b4a50117b44
-6	1221	7732624597522277	CMakeFiles/system.dir/src/menu.cpp.obj	66bd32ca0c808d27
-86	3783	7729713560795061	CMakeFiles/system.dir/src/select.cpp.obj	d98e4ef9819e2880
-13	351	7729153980998767	F:/vscode/c++/tests/build/uac.res	a39a9b4a50117b44
-13	281	7729160842072874	F:/vscode/c++/tests/build/uac.o	5735085e72a4a196
-529	1500	7729153982859949	CMakeFiles/system.dir/src/title.cpp.obj	ad7c3d7ebd4a3991
-5	1595	7732610366528784	CMakeFiles/system.dir/src/cppOut.cpp.obj	13dda18df5591e44
-443	1652	7729153982002641	CMakeFiles/system.dir/src/students.cpp.obj	19fb77b9069cc66
-45	3135	7729721815482958	CMakeFiles/system.dir/src/cppIn.cpp.obj	50bf2e50da976207
-52	1566	7732610367044951	CMakeFiles/system.dir/src/main.cpp.obj	aa2cdeb4147db03a
-6	1424	7732620558459274	CMakeFiles/system.dir/src/list.cpp.obj	3b3922f6458695d3
-29	1845	7732610366800265	CMakeFiles/system.dir/src/login.cpp.obj	79b6522ce2e9f5d9
-1222	1532	7732624609666957	system.exe	c542f25a3bf64773
-13	281	7729160842072874	uac.o	5735085e72a4a196
+# ninja log v7
+5	102	7771447796215906	uac.o	9b396afedab9f8c1
+5	102	7771447796215906	F:/vscode/c++/tests/build/uac.o	9b396afedab9f8c1
+181	617	7771447797049288	CMakeFiles/system.dir/src/title.cpp.obj	96b5685aa5d3b8a
+145	642	7771447796679332	CMakeFiles/system.dir/src/students.cpp.obj	e99c513759ebb550
+111	1659	7771447796348185	CMakeFiles/system.dir/src/cppOut.cpp.obj	251170350f11b5b7
+123	1679	7771447796468285	CMakeFiles/system.dir/src/cppIn.cpp.obj	bca253c1b5b4c78f
+134	1726	7771447796569293	CMakeFiles/system.dir/src/select.cpp.obj	3da3383df2d475c3
+206	1858	7771447797299300	CMakeFiles/system.dir/src/main.cpp.obj	4d06576fe26526f3
+194	1860	7771447797169297	CMakeFiles/system.dir/src/menu.cpp.obj	d0056536dada0bc6
+169	2002	7771447796929295	CMakeFiles/system.dir/src/login.cpp.obj	e9a973c78025f276
+156	2032	7771447796799297	CMakeFiles/system.dir/src/list.cpp.obj	668bcef49de53cd1
+2033	2428	7771447815564606	system.exe	42d050c06ea86db5

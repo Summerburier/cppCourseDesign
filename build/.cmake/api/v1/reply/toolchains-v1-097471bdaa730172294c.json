@@ -39,7 +39,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "D:/Compilers/mysy64/mingw64/bin/gcc.exe",
+				"path" : "d:/Compilers/mysy64/mingw64/bin/gcc.exe",
 				"version" : "14.2.0"
 			},
 			"language" : "C",
@@ -92,7 +92,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "D:/Compilers/mysy64/mingw64/bin/g++.exe",
+				"path" : "d:/Compilers/mysy64/mingw64/bin/g++.exe",
 				"version" : "14.2.0"
 			},
 			"language" : "CXX",

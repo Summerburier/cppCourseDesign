@@ -1,55 +1,55 @@
 [
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\cppOut.cpp.obj -c F:\\vscode\\c++\\tests\\src\\cppOut.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\cppOut.cpp.obj -c F:\\vscode\\c++\\tests\\src\\cppOut.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\cppOut.cpp",
   "output": "CMakeFiles\\system.dir\\src\\cppOut.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\cppIn.cpp.obj -c F:\\vscode\\c++\\tests\\src\\cppIn.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\cppIn.cpp.obj -c F:\\vscode\\c++\\tests\\src\\cppIn.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\cppIn.cpp",
   "output": "CMakeFiles\\system.dir\\src\\cppIn.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\select.cpp.obj -c F:\\vscode\\c++\\tests\\src\\select.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\select.cpp.obj -c F:\\vscode\\c++\\tests\\src\\select.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\select.cpp",
   "output": "CMakeFiles\\system.dir\\src\\select.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\students.cpp.obj -c F:\\vscode\\c++\\tests\\src\\students.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\students.cpp.obj -c F:\\vscode\\c++\\tests\\src\\students.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\students.cpp",
   "output": "CMakeFiles\\system.dir\\src\\students.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\list.cpp.obj -c F:\\vscode\\c++\\tests\\src\\list.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\list.cpp.obj -c F:\\vscode\\c++\\tests\\src\\list.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\list.cpp",
   "output": "CMakeFiles\\system.dir\\src\\list.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\login.cpp.obj -c F:\\vscode\\c++\\tests\\src\\login.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\login.cpp.obj -c F:\\vscode\\c++\\tests\\src\\login.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\login.cpp",
   "output": "CMakeFiles\\system.dir\\src\\login.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\title.cpp.obj -c F:\\vscode\\c++\\tests\\src\\title.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\title.cpp.obj -c F:\\vscode\\c++\\tests\\src\\title.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\title.cpp",
   "output": "CMakeFiles\\system.dir\\src\\title.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\menu.cpp.obj -c F:\\vscode\\c++\\tests\\src\\menu.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\menu.cpp.obj -c F:\\vscode\\c++\\tests\\src\\menu.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\menu.cpp",
   "output": "CMakeFiles\\system.dir\\src\\menu.cpp.obj"
 },
 {
   "directory": "F:/vscode/c++/tests/build",
-  "command": "D:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\main.cpp.obj -c F:\\vscode\\c++\\tests\\src\\main.cpp",
+  "command": "d:\\Compilers\\mysy64\\mingw64\\bin\\g++.exe -IF:/vscode/c++/tests/include -g -std=gnu++17 -o CMakeFiles\\system.dir\\src\\main.cpp.obj -c F:\\vscode\\c++\\tests\\src\\main.cpp",
   "file": "F:\\vscode\\c++\\tests\\src\\main.cpp",
   "output": "CMakeFiles\\system.dir\\src\\main.cpp.obj"
 }

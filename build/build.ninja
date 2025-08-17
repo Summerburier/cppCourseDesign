@@ -132,6 +132,7 @@ build CMakeFiles/system.dir/src/main.cpp.obj: CXX_COMPILER__system_unscanned_Deb
 build system.exe: CXX_EXECUTABLE_LINKER__system_Debug uac.o CMakeFiles/system.dir/src/cppOut.cpp.obj CMakeFiles/system.dir/src/cppIn.cpp.obj CMakeFiles/system.dir/src/select.cpp.obj CMakeFiles/system.dir/src/students.cpp.obj CMakeFiles/system.dir/src/list.cpp.obj CMakeFiles/system.dir/src/login.cpp.obj CMakeFiles/system.dir/src/title.cpp.obj CMakeFiles/system.dir/src/menu.cpp.obj CMakeFiles/system.dir/src/main.cpp.obj
   CONFIG = Debug
   FLAGS = -g
+  LINK_FLAGS = -static -static-libstdc++ -static-libgcc
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\system.dir
   POST_BUILD = cd .
@@ -144,7 +145,7 @@ build system.exe: CXX_EXECUTABLE_LINKER__system_Debug uac.o CMakeFiles/system.di
 #############################################
 # Utility command for clean_output
 
-build clean_output: phony
+build clean_output: phony CMakeFiles/clean_output
 
 
 #############################################
@@ -178,6 +179,13 @@ build uac.o | ${cmake_ninja_workdir}uac.o: CUSTOM_COMMAND F$:/vscode/c++/tests/s
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\vscode\c++\tests\build && windres -i F:/vscode/c++/tests/src/uac.rc -o F:/vscode/c++/tests/build/uac.o --use-temp-file"
   DESC = Compiling resources
   restat = 1
+
+
+#############################################
+# Custom command for CMakeFiles\clean_output
+
+build CMakeFiles/clean_output | ${cmake_ninja_workdir}CMakeFiles/clean_output: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\vscode\c++\tests\build && D:\Compilers\Cmake\bin\cmake.exe -E remove F:/vscode/c++/tests/build/uac.o F:/vscode/c++/tests/build/system.exe"
 
 # =============================================================================
 # Target aliases.

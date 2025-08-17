@@ -28,6 +28,9 @@ add_executable(${PROJECT_NAME}
 #     LINK_FLAGS "/MANIFESTUAC:NO /MANIFEST:EMBED /MANIFESTINPUT:${APP_MANIFEST}"
 # )
 include_directories(${CMAKE_SOURCE_DIR}/include)
-
+target_link_options(system PRIVATE -static -static-libstdc++ -static-libgcc)
 add_custom_target(clean_output
+    COMMAND ${CMAKE_COMMAND} -E remove
+    ${CMAKE_BINARY_DIR}/uac.o
+    ${CMAKE_BINARY_DIR}/system.exe
 )
